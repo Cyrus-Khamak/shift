@@ -1,0 +1,228 @@
+html{font-size:18px;}
+body{margin:0; padding:0; font-family:Roboto Condensed; color:#454648;}
+h1,h2,h3,h4,h5,h6{font-family:Roboto Condensed; margin:0; padding:0;}
+.bigheading,h1 {font-size:4rem; font-weight:700; text-transform:uppercase;}
+.heading,h2 { font-size:4rem; font-weight:700; text-transform:uppercase;}
+.subheading,h4{ font-size:2rem; font-weight:700; }
+.miniheading,h5{font-size:2rem; font-weight:300; line-height:2rem;}
+.btn{border-radius:0; padding:.6rem .834rem; font-size:2rem; font-weight:700; text-shadow:1px 2px 2px rgba(0,0,0,0.4); text-transform:uppercase;}
+
+/* Bounce To Right */
+.hvr-bounce-to-right {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-to-right:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #679c02;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-bounce-to-right:hover, .hvr-bounce-to-right:focus, .hvr-bounce-to-right:active {
+  color: white;
+}
+.hvr-bounce-to-right:hover:before, .hvr-bounce-to-right:focus:before, .hvr-bounce-to-right:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+
+
+.text-success{color:#75b42d!important;}
+.text-secondary{color:#334345!important;}
+
+.wrapper{ max-width:100%; overflow:hidden;}
+.bigbtn{ min-width:22.8rem; }
+.btn-success{ background:#8bcc0f; border-color:#a8ff00;}
+.btn-success:focus,.btn-success:hover{ background:#8bcc0f!important; box-shadow:0 0 0 0rem!important; border-color:#a8ff00;}
+.listtick{list-style:none; margin:0 0 0 4.3rem; padding:.8rem 0 1.8rem 0;}
+.listtick li{line-height:1rem; font-size:1.3rem; margin-left:1.88rem; font-weight:bold;}
+.listtick li span{background:url(../img/tick.png) 0 4px no-repeat; min-height:1.57rem; width:1.57rem; margin:0 .57rem 0 -1.88rem; display:inline-block;}
+
+#banner {background:#efefef;}
+#banner .banner-left{  background:#efefef; border-right: 1px solid #fff;}
+.banner-left img{width:100%;}
+.signupbox{height:100vh; position:relative; background:#292c25; }
+.signupbox .logo{background:#f0f0f0;display:block; padding:.6rem 0;}
+.signupbox .signupcontent{color:#fff; padding:2.1rem 0rem 0rem 0rem; margin-top:2.5rem; position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); width:82%;}
+.signupbox .signupcontent .subheading{ line-height:2.5rem; font-family: 'Roboto', sans-serif;}
+.signupbox .signupcontent p{color:#c3d6a1; font-size:1.5rem; font-weight:bold;}
+.signupbox .signupcontent p.getcoaching{ margin:2.23rem 0 4.45rem 0; }
+.signupbox .signupcontent p+.btn{margin:0 0 10px 0} 
+#canhelp{ padding-top:7.12rem;}
+#canhelp .miniheading{margin-bottom:1.11rem;}
+.shiftgroupbox{position:relative;}
+.shiftgroupbox:before{background:rgba(52,55,52,.92); content:''; position:absolute; left:0; right:0; top:0; bottom:0;}
+.shiftgroupbox h1{ position:absolute; top:5.23rem; width:100%; text-align:center; color:#fff;}
+.shiftgroupbox .miniheading{position:absolute; bottom:2.9rem; width:100%; text-align:center; color:#dcdde1;}
+
+section{min-height:100vh; clear:both; padding:3.34rem 0;}
+.nopad{padding:0;}
+.shiftgroupbox img{ max-width:100%;}
+#thefacilitator{}
+#thefacilitator .thefacilitator-box{margin:1.11rem 0;}
+#thefacilitator .thefacilitator-box .subheading{ font-size:1.67rem; line-height:2rem; text-align:center; margin:.84rem 0; text-transform:capitalize;}
+ 
+#thecourse .content{clear:both; color: #334345}
+#thecourse .small{display:block; width:15rem; font-size:1rem; line-height:1.11rem; font-weight:300; margin:1.67rem auto  2.8rem auto;}
+.course-detail{background:#ffbc2b; padding:2.67rem 0 4rem 0; margin:1.67rem 0 0 0;}
+.course-detail h2{color:#fff;}
+.course-detail .subheading{font-family: 'Roboto', sans-serif!important; margin:4.170rem 0 0 0 ; font-weight:900; font-size:2.223rem; color:#000000;}
+.course-detail .onlineclass{ font-size:1.111rem; font-family: 'Roboto', sans-serif!important; font-weight:700; color:#fff; line-height:1.3rem; position:relative; padding-bottom:1.67rem; display:block; clear:both;}
+.course-detail .onlineclass:before{content:''; border-bottom:2px solid #fff; position:absolute; bottom:0; left:50%; transform:translate(-50%,-1.11rem); width:2.8rem;}
+
+#testimonial{padding:0;clear:both;}
+#testimonial .testimonial-box{background:#262925; position:relative; min-height:26.67rem; overflow:hidden;}
+#testimonial .testimonial-box  video{width:100%; height:100%;}
+#testimonial .content h2{ position:absolute; left:50%; top:0%; transform:translate(-50%,3rem); text-align:center; color:#fff; }
+#testimonial .content .play { position:absolute; left:50%; bottom:0%; transform:translate(-50%,-3rem); text-align:center;}
+#testimonial .content .play:hover{filter:grayscale(15%); transaction:1s;}
+#testimonial .testimonial-signup{ padding:2.8rem 1rem;}
+#testimonial .testimonial-signup .btn{display:block; clear:both; max-width:400px; margin:0 auto 10px auto;}
+#testimonial .testimonial-signup .btn+small{font-size:1.11rem; font-family: 'Roboto', sans-serif!important; }
+#testimonial .testimonial-signup  h2{text-transform:capitalize; margin-bottom:1.39rem;}
+#testimonial .testimonial-signup p strong{display:block;}
+
+footer{position:relative; margin:5.56rem 0 0 0;}
+.footerlogo_wrapper{ text-align:center; width:100%; padding:.84rem; border-top:1px solid #ccc; background:#f0f0f0;}
+.copyright{ background:#282d26; padding:.79rem 0 1.28rem 0; font-size:.89rem; font-family: 'Roboto', sans-serif!important; text-align:center; color:#fff;}
+
+
+.classlist{ margin:3rem  auto 0 auto;}
+.classlist .form-check input[type="radio"]{opacity:0;alpha:(filter:0);}
+.classlist .form-check{margin:0 auto 13px auto;}
+.classlist .form-check label{padding:.84rem 5.56rem; color:#1d1d1d; cursor:pointer; border:1px solid #cacaca; color:#555; min-width:100%; font-weight:400;}
+.classlist .form-check input:checked+label,.classlist .form-check input:checked+label:focus{background:#f1f1f1 url(../img/tick.png) 90% 13px no-repeat; color:#1d1d1d;}
+.modal-content{border-radius:0;}
+.modal-header{padding:0; text-align:center; background:#efefef;}
+.modal-header img{margin:0 auto; display:block; padding:.56rem 0; max-height:85px;}
+.modal-body .heading,.modal-body .subheading{text-transform:none; color:#8bcc0f!important;}
+.modal-body .text-success{color:#8bcc0f!important;}
+.paymethod{margin:2.23rem auto;}
+.modal .form-group small{line-height:.78rem; font-size:.89rem; display:block; padding:.56rem 0 0 0}
+.modal-footer{border:0; width:100%; clear:both;display:block!important; padding:2rem 0 3.61rem 0;}
+.modal-footer p{margin:0; padding:0;}
+.modal-footer .btn{text-transform:capitalize; background:#8bcc0f; min-width:14.45rem; max-width:14.45rem; display:block; margin:0 auto;}
+
+#imagevideo {
+    background: #000 none repeat scroll 0 0;
+    bottom: 0;
+    display: none;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 2501;
+}
+
+#imagevideo.in{display:block;}
+
+
+#imagevideo-innerwrap {
+    left: 50%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 80%;
+    width: 80%;
+}
+
+
+#imagevideo-innerwrap iframe {
+    width: 100%;
+    height: 100%;
+}
+
+#imagevideo-close {
+    background: rgba(0, 0, 0, 0) url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' version=\'1.1\' preserveAspectRatio=\'none\' style=\'width:100%;height:100%;\'><line x1=\'0\' y1=\'100%\' x2=\'100%\' y2=\'0\' style=\'stroke:rgb(255,255,255);stroke-width:2\' /><line x1=\'0\' y1=\'0\' x2=\'100%\' y2=\'100%\' style=\'stroke:rgb(255,255,255);stroke-width:2\' /></svg>") no-repeat scroll center center / 100% 100%;
+    cursor: pointer;
+    height: 30px;
+    position: fixed;
+    right: 30px;
+    stroke-width: ;
+    stroke-width: ;
+    top: 30px;
+    width: 30px;
+    z-index: 2502;
+}
+
+
+@media(min-width:1600px){
+html{font-size:20px;}
+#canhelp .miniheading{padding:0 10%;}
+}
+
+
+@media(min-width:768px){
+.modal.show .modal-dialog{top:50%; left:50%; transform:translate(-50%,-50%)!important; position:absolute; max-width:600px; min-height:500px; margin-top:0;}
+.modal-body{overflow-x:hidden; max-height:20rem; overflow-y:auto; padding-bottom:0;}
+#banner .col-lg-4{ms-flex: 0 0 37.50%;flex: 0 0 37.50%;max-width: 37.50%;}
+#banner .col-lg-8{ms-flex: 0 0 62.50%;flex: 0 0 62.50%;max-width: 62.50%;}
+}
+
+
+@media(max-width:1100px){
+html{font-size:14px;}	
+.listtick {margin-left:1.5rem;}
+.listtick li{ line-height:2rem;}
+.listtick li span{ min-height:2.1rem;}
+}
+
+
+@media(max-width:992px){
+html{font-size:15px;}
+.shiftgroupbox{min-height:23rem;}	
+.shiftgroupbox p{padding:0 5%;}
+section {min-height:auto;}
+#thecourse .small{font-size:1.5rem; width:22rem; line-height:1.8rem;}
+.thefacilitator-box{font-size:1.5rem; line-height:1.8rem;}
+#testimonial .testimonial-signup p{font-size:1.5rem;}
+}
+
+@media(max-width:767px){
+body{overflow-x:hidden!important}
+html{font-size:12px;}
+.thefacilitator-box{margin:1.11rem!important}
+.modal{top:10%;}
+.classlist .form-check label{font-size:1.2rem;}
+.classlist .form-check input:checked + label, .classlist .form-check input:checked + label:focus{ background:#f1f1f1 url(../img/tick.png) 90% 5px no-repeat;}
+.modal-dialog{max-width:90%; margin:.5rem auto;}
+.thefacilitator-box img{display:block; margin:0 auto;}
+.signupbox .signupcontent{margin-top:1.5rem}
+.signupbox .logo img{max-height:5rem;}
+.shiftgroupbox{min-height:30rem;}
+.log img,.footerlogo_wrapper img{max-height:5rem;}
+.modal-header img{max-height:5rem;}
+.modal .form-group small{ line-height:1rem;}
+.course-detail .onlineclass{ font-size:1.2rem; line-height:1.3rem;}
+}
+
+
+@media(max-width:374px){
+html{font-size:10px;}
+}
+
